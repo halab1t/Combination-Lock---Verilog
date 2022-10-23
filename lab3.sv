@@ -12,7 +12,7 @@ module lab3(input [9:0] SW, input [3:0] KEY,
     begin
         if(~rst_n) begin
             state <= 4'd0;
-        end
+        end 
         case(state)
             4'd0: if(SW === 10'd6)begin
                 state <= 4'd1;  
@@ -49,10 +49,17 @@ module lab3(input [9:0] SW, input [3:0] KEY,
                 state <= 4'd12;
             end
             4'd10: state <= 4'd12;
-            4'd11: state <= 4'd11;
+            4'd11: begin 
+                if(~rst_n) begin
+                    state <= 4'd0;
+                end else begin
+                     state <= 4'd11;
+                end
+            end
             4'd12: state <= 4'd12;
             default: state <= 4'd0;
         endcase 
+        
 
     end
 
