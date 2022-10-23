@@ -14,36 +14,36 @@ module lab3(input [9:0] SW, input [3:0] KEY,
             state <= 4'd0;
         end
         case(state)
-            4'd0: if(SW === 9'd6)begin
+            4'd0: if(SW === 10'd6)begin
                 state <= 4'd1;  
             end else begin
                 state <= 4'd2;
             end
-            4'd1: if(SW === 9'd3)begin
+            4'd1: if(SW === 10'd3)begin
                 state <= 4'd3;  
             end else begin
                 state <= 4'd4;
             end
             4'd2: state <= 4'd4;
-            4'd3: if(SW === 9'd2)begin
+            4'd3: if(SW === 10'd2)begin
                 state <= 4'd5;  
             end else begin
                 state <= 4'd6;
             end
             4'd4: state <= 4'd6;
-            4'd5: if(SW === 9'd9)begin
+            4'd5: if(SW === 10'd9)begin
                 state <= 4'd7;  
             end else begin
                 state <= 4'd8;
             end
             4'd6: state <= 4'd8;
-            4'd7: if(SW === 9'd1)begin
+            4'd7: if(SW === 10'd1)begin
                 state <= 4'd9;  
             end else begin
                 state <= 4'd10;
             end
             4'd8: state <= 4'd10;
-            4'd9: if(SW === 9'd4)begin
+            4'd9: if(SW === 10'd4)begin
                 state <= 4'd11;  
             end else begin
                 state <= 4'd12;
@@ -73,7 +73,7 @@ module lab3(input [9:0] SW, input [3:0] KEY,
             HEX5 = 7'b1000110;
         end else begin
             case(SW)
-                4'd0: begin
+                10'd0: begin
                     HEX0 = 7'b1000000;
                     HEX1 = 7'b1111111;
                     HEX2 = 7'b1111111;
@@ -81,7 +81,7 @@ module lab3(input [9:0] SW, input [3:0] KEY,
                     HEX4 = 7'b1111111;
                     HEX5 = 7'b1111111;
                 end
-                4'd1: begin
+                10'd1: begin
                     HEX0 = 7'b1111001;
                     HEX1 = 7'b1111111;
                     HEX2 = 7'b1111111;
@@ -89,7 +89,7 @@ module lab3(input [9:0] SW, input [3:0] KEY,
                     HEX4 = 7'b1111111;
                     HEX5 = 7'b1111111;
                 end
-                4'd2: begin
+                10'd2: begin
                     HEX0 = 7'b0100100;
                     HEX1 = 7'b1111111;
                     HEX2 = 7'b1111111;
@@ -97,7 +97,7 @@ module lab3(input [9:0] SW, input [3:0] KEY,
                     HEX4 = 7'b1111111;
                     HEX5 = 7'b1111111;
                 end
-                4'd3: begin
+                10'd3: begin
                     HEX0 = 7'b0110000;
                     HEX1 = 7'b1111111;
                     HEX2 = 7'b1111111;
@@ -105,7 +105,7 @@ module lab3(input [9:0] SW, input [3:0] KEY,
                     HEX4 = 7'b1111111;
                     HEX5 = 7'b1111111;
                 end
-                4'd4: begin
+                10'd4: begin
                     HEX0 = 7'b0011001;
                     HEX1 = 7'b1111111;
                     HEX2 = 7'b1111111;
@@ -113,7 +113,7 @@ module lab3(input [9:0] SW, input [3:0] KEY,
                     HEX4 = 7'b1111111;
                     HEX5 = 7'b1111111;
                 end
-                4'd5: begin
+                10'd5: begin
                     HEX0 = 7'b0010010;
                     HEX1 = 7'b1111111;
                     HEX2 = 7'b1111111;
@@ -121,7 +121,7 @@ module lab3(input [9:0] SW, input [3:0] KEY,
                     HEX4 = 7'b1111111;
                     HEX5 = 7'b1111111;
                 end
-                4'd6: begin
+                10'd6: begin
                     HEX0 = 7'b0000010;
                     HEX1 = 7'b1111111;
                     HEX2 = 7'b1111111;
@@ -129,7 +129,7 @@ module lab3(input [9:0] SW, input [3:0] KEY,
                     HEX4 = 7'b1111111;
                     HEX5 = 7'b1111111;
                 end
-                4'd7: begin
+                10'd7: begin
                     HEX0 = 7'b1111000;
                     HEX1 = 7'b1111111;
                     HEX2 = 7'b1111111;
@@ -137,7 +137,7 @@ module lab3(input [9:0] SW, input [3:0] KEY,
                     HEX4 = 7'b1111111;
                     HEX5 = 7'b1111111;
                 end
-                4'd8: begin
+                10'd8: begin
                     HEX0 = 7'b0000000;
                     HEX1 = 7'b1111111;
                     HEX2 = 7'b1111111;
@@ -145,7 +145,7 @@ module lab3(input [9:0] SW, input [3:0] KEY,
                     HEX4 = 7'b1111111;
                     HEX5 = 7'b1111111;
                 end
-                4'd9: begin
+                10'd9: begin
                     HEX0 = 7'b0011000;
                     HEX1 = 7'b1111111;
                     HEX2 = 7'b1111111;
