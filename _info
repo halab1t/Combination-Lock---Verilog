@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/pb
+vlab3
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1666510028
+!i10b 1
+!s100 ;LAFaBXa<eaP66aCD8AJb3
+Ih=bV;ZbzFOaTOS<N3UWN@3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 lab3_sv_unit
+S1
+Z3 dC:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3
+w1666510017
+8C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3/lab3.sv
+FC:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3/lab3.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1666510028.000000
+!s107 C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3/lab3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3/lab3.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vtb_lab3
+R0
+R1
+!i10b 1
+!s100 zXZQJ>847[lfBQOT_nMJW1
+I^6D7nFfdEhESBa2JVAU0G0
+R2
+!s105 tb_lab3_sv_unit
+S1
+R3
+w1666510014
+8C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3\tb_lab3.sv
+FC:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3\tb_lab3.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3\tb_lab3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3\tb_lab3.sv|
+!i113 1
+R6
+R7
