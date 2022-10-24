@@ -1,0 +1,25 @@
+C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/lab3.sv {1 {vlog -work work -sv -stats=none C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/lab3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab3
+
+Top level modules:
+	lab3
+
+} {} {}} C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv {2 {vlog -work work -sv -stats=none C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_lab3
+** Warning: C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv(53): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv(66): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv(76): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv(83): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv(94): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv(105): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv(116): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv(127): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv(136): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv(153): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	tb_lab3
+
+} {} {}}

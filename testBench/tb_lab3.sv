@@ -149,10 +149,13 @@ module tb_lab3();
             if(failDigit === index)begin
                 sim_SW = 10'd8;
                 #15;
-                pressClk();
+
                 assert(sim_HEX0 === 7'b0000000 && sim_HEX1 === 7'b1111111 && sim_HEX2 === 7'b1111111 && sim_HEX3 === 7'b1111111 && sim_HEX4 === 7'b11111111 && sim_HEX5 === 7'b1111111)
                 $display("7-segments functioning as expected");
                 else $error("ERROR: 7-segments not functioning as expected");
+                
+                pressClk();
+
             end else begin
                 sim_SW = passcode[index];
                 #15;

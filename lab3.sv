@@ -12,53 +12,48 @@ module lab3(input [9:0] SW, input [3:0] KEY,
     begin
         if(~rst_n) begin
             state <= 4'd0;
-        end 
-        case(state)
-            4'd0: if(SW === 10'd6)begin
-                state <= 4'd1;  
-            end else begin
-                state <= 4'd2;
-            end
-            4'd1: if(SW === 10'd3)begin
-                state <= 4'd3;  
-            end else begin
-                state <= 4'd4;
-            end
-            4'd2: state <= 4'd4;
-            4'd3: if(SW === 10'd2)begin
-                state <= 4'd5;  
-            end else begin
-                state <= 4'd6;
-            end
-            4'd4: state <= 4'd6;
-            4'd5: if(SW === 10'd9)begin
-                state <= 4'd7;  
-            end else begin
-                state <= 4'd8;
-            end
-            4'd6: state <= 4'd8;
-            4'd7: if(SW === 10'd1)begin
-                state <= 4'd9;  
-            end else begin
-                state <= 4'd10;
-            end
-            4'd8: state <= 4'd10;
-            4'd9: if(SW === 10'd4)begin
-                state <= 4'd11;  
-            end else begin
-                state <= 4'd12;
-            end
-            4'd10: state <= 4'd12;
-            4'd11: begin 
-                if(~rst_n) begin
-                    state <= 4'd0;
+        end else begin
+            case(state)
+                4'd0: if(SW === 10'd6)begin
+                    state <= 4'd1;  
                 end else begin
-                     state <= 4'd11;
+                    state <= 4'd2;
                 end
-            end
-            4'd12: state <= 4'd12;
-            default: state <= 4'd0;
-        endcase 
+                4'd1: if(SW === 10'd3)begin
+                    state <= 4'd3;  
+                end else begin
+                    state <= 4'd4;
+                end
+                4'd2: state <= 4'd4;
+                4'd3: if(SW === 10'd2)begin
+                    state <= 4'd5;  
+                end else begin
+                    state <= 4'd6;
+                end
+                4'd4: state <= 4'd6;
+                4'd5: if(SW === 10'd9)begin
+                    state <= 4'd7;  
+                end else begin
+                    state <= 4'd8;
+                end
+                4'd6: state <= 4'd8;
+                4'd7: if(SW === 10'd1)begin
+                    state <= 4'd9;  
+                end else begin
+                    state <= 4'd10;
+                end
+                4'd8: state <= 4'd10;
+                4'd9: if(SW === 10'd4)begin
+                    state <= 4'd11;  
+                end else begin
+                    state <= 4'd12;
+                end
+                4'd10: state <= 4'd12;
+                4'd11: state <= 4'd11;
+                4'd12: state <= 4'd12;
+                default: state <= 4'd0;
+            endcase 
+        end
         
 
     end

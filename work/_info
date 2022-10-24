@@ -9,50 +9,71 @@ z2
 cModel Technology
 dC:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/pb
 vlab3
-Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1666510028
+Z0 !s110 1666571341
 !i10b 1
-!s100 ;LAFaBXa<eaP66aCD8AJb3
-Ih=bV;ZbzFOaTOS<N3UWN@3
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-!s105 lab3_sv_unit
-S1
-Z3 dC:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3
-w1666510017
-8C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3/lab3.sv
-FC:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3/lab3.sv
-L0 1
-Z4 OV;L;10.5b;63
+!s100 8h_:9`S5^@3_8H1P8=O<72
+Ifzg_CUfO]^0Ro@RS4GN_?3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones
+w1666569327
+8C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\simulation\modelsim\Lab3clone_top.vo
+FC:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\simulation\modelsim\Lab3clone_top.vo
+L0 31
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1666510028.000000
-!s107 C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3/lab3.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3/lab3.sv|
+Z4 !s108 1666571341.000000
+!s107 C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\simulation\modelsim\Lab3clone_top.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\simulation\modelsim\Lab3clone_top.vo|
 !i113 1
-Z6 o-work work -sv
-Z7 tCvgOpt 0
+o-work work
+Z5 tCvgOpt 0
 vtb_lab3
-R0
-R1
+Z6 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1666567426
 !i10b 1
-!s100 zXZQJ>847[lfBQOT_nMJW1
-I^6D7nFfdEhESBa2JVAU0G0
-R2
+!s100 cgnVz6V@JDl<Ho06GD0mL0
+IJ^:jFcZ1YKk>AAf[CjSQ40
+R1
 !s105 tb_lab3_sv_unit
 S1
-R3
-w1666510014
-8C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3\tb_lab3.sv
-FC:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3\tb_lab3.sv
+R2
+w1666567105
+8C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv
+FC:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv
 L0 1
-R4
+R3
 r1
 !s85 0
 31
-R5
-!s107 C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3\tb_lab3.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3\tb_lab3.sv|
+!s108 1666567426.000000
+!s107 C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3.sv|
 !i113 1
+Z7 o-work work -sv
+R5
+vtb_lab3_gate
 R6
+R0
+!i10b 1
+!s100 ]=Q?ACDLKOIG[DSRoz62>3
+I_3GO_Zom?9_cn<9[XZF:o1
+R1
+!s105 tb_lab3_gate_sv_unit
+S1
+R2
+w1666571314
+8C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv
+FC:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv|
+!i113 1
 R7
+R5

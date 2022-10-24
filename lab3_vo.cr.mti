@@ -1,0 +1,25 @@
+C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/testBench/tb_lab3_gate.sv {2 {vlog -work work -sv -stats=none {C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_lab3_gate
+** Warning: C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv(55): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv(68): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv(78): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv(85): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv(96): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv(107): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv(118): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv(129): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv(138): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\testBench\tb_lab3_gate.sv(155): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	tb_lab3_gate
+
+} {} {}} C:/Users/laura/Desktop/ENPH/Y3/CPEN211/Labs/Lab3_clones/simulation/modelsim/Lab3clone_top.vo {1 {vlog -work work -stats=none {C:\Users\laura\Desktop\ENPH\Y3\CPEN211\Labs\Lab3_clones\simulation\modelsim\Lab3clone_top.vo}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab3
+
+Top level modules:
+	lab3
+
+} {} {}}
